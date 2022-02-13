@@ -21,10 +21,11 @@ import datetime as dt
 from selenium.webdriver.common.by import By
 
 
-
-PATH="whatever your selenuim path is" (hint: mine is C:/Users/clive/Downloads/chromedriver.exe)
+PATH="C:\Program Files (x86)\chromedriver.exe"
 
 
 driver=webdriver.Chrome(PATH)
+driver.get(about:blank) 
 driver.maximize_window()
 
+input()
